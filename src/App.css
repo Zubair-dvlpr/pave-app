@@ -1,0 +1,32 @@
+.active::after {
+  content: '';
+  width: 6px;
+  height: 6px;
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: #fff;
+}
+
+.Thrones {
+  background: linear-gradient(90deg, #A36841 3.45%, #DF8F44 52.03%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.swiper-pagination span {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  border-radius: 50%;
+  background: #ccc; /* Default dot color */
+  margin: 0 4px;
+}
+
+.swiper-pagination span.swiper-pagination-bullet-active {
+  background: #F8CB3E; /* Active dot color - yellow */
+}
